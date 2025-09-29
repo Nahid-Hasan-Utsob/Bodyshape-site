@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --right-color: #FF921B80;
+  --left-color: #F66844;
+  --text-color: #ffffff;
+
+}

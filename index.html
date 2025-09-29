@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+    .roboto-normal {
+      font-family: "Roboto", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+
+    <script
+      src="https://kit.fontawesome.com/2d41a42db0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  
+
+  <body class="roboto-normal max-w-[1200px] mx-auto bg-black">
+    <nav class="flex justify-between h-20 items-center ju pt-2">
+      <div>
+        <div class="text-center w-fit">
+          <div class="flex gap-3 pb-5">
+            <img src="images/logo_left.png" alt="" />
+            <p
+              class="text-2xl tracking-wider bg-gradient-to-r from-[#FF921B80] to-[#F66844] bg-clip-text text-transparent"
+            >
+              Bodyshape
+            </p>
+            <img src="images/logo_right.png" alt="" />
+          </div>
+          <div>
+            <p
+              class="tracking-wider bg-gradient-to-r from-[#FF921B80] to-[#F66844] bg-clip-text text-transparent text-xs"
+            >
+              Unleash your inner athlete
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <ul class="text-base text-white flex gap-8 items-center">
+          <li>
+            <a href="" class="border-1 border-b-2 border-[#F66844] pb-2"
+              >Home</a
+            >
+          </li>
+          <li><a href="">Services</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contacts</a></li>
+          <div>
+            <button
+              class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white p-[8px] rounded-b-sm"
+            >
+              Join Us
+            </button>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="flex">
+      
+      <div class="relative">
+        <img src="images/banner.png" alt="" />
+      </div>
+      <div class="absolute z-20 top-36">
+        <div class="text-white text-6xl">
+          <p>
+            Transform <br />
+            Your Body
+          </p>
+          <p class="opacity-50 text-base mt-5 mb-[100px]">
+            We are dedicated to helping you transform your <br />body and mind
+            through the power of fitness.
+          </p>
+        </div>
+
+        <div>
+          <button
+            class="bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white p-[10px] rounded-b-sm px-6 mr-[18px]"
+          >
+            Get Started
+          </button>
+          <button
+            class="border-2 border-[#F66844] text-white p-[8px] rounded-b-sm px-6"
+          >
+            <i class="fa-solid fa-circle-play pr-2 text-[#F66844]"></i>Watch
+            Reviews
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <div class="relative">
+
+      <img src="images/roated_banner.png" class="bg-cover scale-x-[-1] opacity-30" alt="">
+
+      <div class="absolute top-0 -mt-7 bg-gradient-to-r from-[#F66844] to-[#FF921B]">
+        <div class="flex w-64 h-12 overflow-hidden ">
+  <div class="flex items-center justify-center w-1/3  text-white font-bold text-2xl"><i class="fa-brands fa-google"></i></span>
+  </div>
+
+  <div class="flex items-center justify-center w-1/3  text-white font-bold text-2xl"><i class="fa-brands fa-facebook"></i></span>
+  </div>
+
+  <div class="flex items-center justify-center w-1/3  text-white  ">
+    <span class=" font-bold text-2xl"><i class="fa-brands fa-youtube"></i></span>
+  </div>
+</div>
+
+      </div>
+
+
+      <div class="absolute top-16">
+          <div>
+            <p class="text-4xl text-white">Fitness Plans & <span class="text-[#FF921B]">Nutritions</span></p>
+          </div>
+
+          <section class="grid grid-cols-3"> 
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5  border-r border-b border-[#FF921B] mt-14">
+              <img src="images/workout 1.svg" alt="">
+              <p class="text-base text-white font-bold">Weight Loss</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">Weight loss can have causes that aren't due to underlying disease. Examples include dieting, exercise, malnutrition or lack of access to food.</p>
+            </div>
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5  border-r border-b border-[#FF921B] mt-14">
+              <img src="images/yoga 1.svg" alt="">
+              <p class="text-base text-white font-bold">Classic Yoga</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a posture-based physical fitness, stress-relief.</p>
+            </div>
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5   border-b border-[#FF921B] mt-14">
+              <img src="images/bicycle 1.svg" alt="">
+              <p class="text-base text-white font-bold">Cycling</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport.</p>
+            </div>
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5  border-r  border-[#FF921B] ">
+              <img src="images/biceps.svg" alt="">
+              <p class="text-base text-white font-bold">Body Building</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles by muscle hypertrophy for aesthetic purposes.</p>
+            </div>
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5  border-r  border-[#FF921B] ">
+              <img src="images/fitness.svg" alt="">
+              <p class="text-base text-white font-bold">Musculation</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">Weight training is a common type of strength training for developing the strength, size of skeletal muscles and maintenance of strength.</p>
+            </div>
+            <div class="w-fit  py-4 pt-10 px-6 flex justify-center flex-col items-center gap-5    border-[#FF921B] ">
+              <img src="images/runer-silhouette-running-fast.svg" alt="">
+              <p class="text-base text-white font-bold">Fitness Running</p>
+              <p class="text-xs text-white opacity-50 font-bold  text-center">Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot.</p>
+            </div>
+          </section>
+      </div>
+
+      <section>
+
+      </section>
+    </div>
+    </section>
+  </body>
+</html>
