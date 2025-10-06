@@ -2,6 +2,8 @@
 
 ## Overview
 
+live Link : https://nahid-hasan-utsob.github.io/Bodyshape-site/
+
 Bodybuilding is the art of building muscle and strength through structured workouts, proper nutrition, and adequate recovery. This README provides an overview of training principles, nutrition basics, beginner workout plans, and safety tips.
 
 ---
